@@ -1,0 +1,35 @@
+.review{
+    padding-bottom: 100px;
+    &__title{
+        font-size: 30px;
+        color: rgb( 13, 13, 13 );
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &__card{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__img{
+        margin-right: 60px;
+            border-radius: 50%;
+            background-color: rgb( 13, 13, 13 );
+            width: 169px;
+            height: 169px;
+            border: none;
+        }
+    &-info__subtitle{
+            font-size: 18px;
+            color: rgb( 13, 13, 13 );
+            font-weight: bold;
+            text-align: left;
+        }
+    &-info__descr{
+            padding-top: 30px;
+            color: rgb( 13, 13, 13 );
+            font-size: 14px;
+            font-weight: 300;
+    }
+          
+}

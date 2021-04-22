@@ -1,0 +1,331 @@
+@media (max-width: 1200px){
+    .container {
+        max-width: 850px;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 992px){
+    .container {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    .header {
+        &__logo{
+            width: 230px;
+        }
+    }
+    .promo {
+        &__wrapper {
+            margin-top: 80px;
+        }
+        &__header {
+            font-size: 40px;
+        }
+        &__subheader {
+            margin-top: 12px;
+            font-size: 22px;
+        }
+        &__icons {
+            margin-top: 60px;
+            width: 380px;
+        }
+    }
+    .button {
+        &_main {
+            margin-top: 57px;
+            width: 250px;
+            font-size: 14px;
+        }
+    }
+    .reasons {
+        padding: 62px 0 75px 0;
+        &__items {
+            margin-top: 65px;
+        }
+        &__item {
+            width: 200px;
+            h3 {
+                margin-top: 30px;
+            }
+            .descr {
+                font-size: 14px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px){
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .header {
+        &__phone {
+            font-size: 14px;
+        }
+        &__official {
+            font-size: 10px;
+        }
+        &__logo {
+            width: 180px;
+        }
+        button {
+            width: 140px;
+            font-size: 11px;
+        }
+    }
+    .promo {
+        padding: 25px 20px 93px 15px;
+        &__header {
+            font-size: 35px;
+        }
+        &__subheader {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        &__icons {
+            margin-top: 50px;
+            width: 350px;
+        }
+        &__icon {
+            font-size: 12px;
+        }
+        &__link {
+            font-size: 14px;
+        }
+    }
+    .button {
+        &_main {
+            margin-top: 47px;
+            width: 220px;
+            font-size: 14px;
+        }
+    }
+    .reasons {
+        padding: 52px 0 65px 0;
+        &__items {
+            margin-top: 60px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        &__item {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 0px 50px;
+            img {
+                width: 20%;
+            }
+            h3 {
+                margin-top: 30px;
+            }
+            .descr {
+                font-size: 14px;
+                margin-top: 20px;
+            }
+        }
+    }
+    .carousel{
+        .slick-dots{
+            display: none !important;
+        }
+    }
+    .consultation{
+        padding: 100px 20px 92px 20px;
+        &__descr{
+            font-size: 18px;
+        }
+    }
+    .title_left{
+        font-size: 30px;
+    }
+    .catalog{
+        padding: 50px 20px;
+        &__tabs{
+            margin-top: 50px !important;;
+        }
+        &__tab div{
+            font-size: 14px;
+        }
+        &-item{
+            margin: 0 auto;
+        }
+    }
+    .review{
+        padding: 50px 20px;
+        &-info__descr{
+            font-size: 14px !important;;
+        }
+    }
+    .footer{
+        &__info{
+            width: 360px !important;;
+        }
+    }
+    // .modal{
+    //     top: 40% !important;;
+    //     left: 31% !important;;
+    // } 
+}
+
+@media (max-width: 479px){
+    .header__official{
+        display: none;
+    }
+    .container {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    .reasons{
+        &__subheader{
+            font-size: 25px;
+        }
+    }
+    .consultation{
+        .title_left{
+            font-size: 25px;
+        }
+        .feed-form input{
+            width: 250px;
+        }
+        .button_submit{
+            width: 90%;
+        }
+        &__descr{
+            font-size: 14px;
+        }
+    }
+    .catalog{
+        &__tabs{
+            flex-direction: column;
+        }
+        &__tab{
+            margin: 5px !important;
+        }
+    }
+    .review{
+        padding: 20px 20px;
+        &__card{
+            margin-top: 70px !important;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+        }
+        &-info__subtitle{
+            text-align: center !important;
+            padding-top: 15px;
+        }
+        &-info__descr{
+            padding-top: 15px !important;
+        }
+        &__img{
+            margin-right: 0 !important;
+        }
+    }
+    .modal{
+        left: 38%;
+        &__close{
+            right: 0px !important;
+            font-size: 31px !important;
+         }
+    }
+}
+
+@media (max-width: 320px){
+    .promo{
+        padding: 25px 20px;
+        min-height: 600px;
+        &__wrapper{
+            margin-top: 50px;
+        }
+        &__icons{
+            width: 280px;
+        }
+    }
+    .header{
+        &__logo img{
+            width: 80%;
+        }
+        &__phone{
+            font-size: 12px;
+        }
+        .button{
+            width: 120px;
+        }
+    }
+    .reasons{
+        padding: 45px 0;
+    }
+    .consultation{
+        padding: 45px 20px;
+        .feed-form input{
+            width: 200px;
+            padding: 0 15px;
+        }
+        .button_submit{
+            width: 70%;
+            font-size: 14px;
+        }
+        label.error{
+            font-size: 12px;
+            text-align: left;
+        }
+    }
+    .catalog{
+        padding-bottom: 50px !important;
+        .title{
+            font-size: 25px;
+        }
+    }
+    .footer{
+        &__info{
+            // position: relative !important;
+            padding: 20px 40px !important;
+            height: 150px !important;
+        }
+        &__addr{
+            font-size: 14px !important;
+            margin-bottom: 10px !important;
+        }
+        &__phone{
+            font-size: 14px !important;
+            margin-bottom: 10px !important;
+        }
+        &__social{
+            width: 120px !important;
+        }
+        &__social-item{
+            width: 30px !important;
+            height: 30px !important;
+        }
+        &__social-item img{
+            height: 15px !important;
+        }
+    }
+
+    .pageup img{
+        width: 80% !important;
+    }
+
+    .modal{
+        width: 250px !important;
+        padding: 20px 20px !important;
+        &__close{
+            right: 0px !important;
+            font-size: 31px !important;
+         }
+        label.error{
+            font-size: 10px;
+            text-align: left !important;
+        }
+    }
+
+    .feed-form input{
+        width: 200px !important;
+    }
+    .button_submit{
+        width: 70% !important;
+    }
+
+}
